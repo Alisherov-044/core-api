@@ -43,6 +43,7 @@ ALLOWED_HOSTS = env.list('ALLOWED_HOSTS')  # []
 
 INSTALLED_APPS = [
     # main apps
+    'api.apps.ApiConfig',
 
     # additional apps
     'rest_framework',
