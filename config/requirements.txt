@@ -4,3 +4,7 @@ psycopg2
 environs
 pillow
 django-cors-headers
+redis
+django-redis
+django-debug-toolbar
+loadtest
